@@ -7,6 +7,13 @@ class Encrypt extends Transform {
       if (chunk[i] !== 255) {
         chunk[i] += 1; // Add custom solution as needed.
       }
+      // Chunk progress
+      // const tenthOfData = Math.floor(chunk.length / 10);
+      // // Log progress every 10% of the chunk, avoiding division by zero
+      // if (tenthOfData > 0 && i > 0 && i % tenthOfData === 0) {
+      //   const percentage = Math.round((i / chunk.length) * 100);
+      //   console.log(`Encoding... ${percentage}% of the current chunk`);
+      // }
     }
     this.push(chunk);
     callback();

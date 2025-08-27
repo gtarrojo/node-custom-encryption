@@ -1,0 +1,1 @@
+Streams are a fundamental concept in computer science, representing a sequence of data elements made available over time. They can be used for reading from or writing to files, network sockets, or any other input/output source. Processing data as a stream is efficient, as it allows for handling large amounts of data without needing to hold it all in memory at once.

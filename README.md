@@ -4,14 +4,14 @@ This project demonstrates **basic file encryption and decryption** using Node.js
 
 ## How It Works
 
-### 🔒 Encryption
+###  Encryption
 
 - The `encryption.js` script:
   - Reads data from **`read.txt`**
   - Encrypts it by **shifting the character codes**
   - Writes the encrypted data to **`write.txt`**
 
-### 🔓 Decryption
+###  Decryption
 
 - The `decryption.js` script:
   - Reads the encrypted data from **`write.txt`**
@@ -20,6 +20,6 @@ This project demonstrates **basic file encryption and decryption** using Node.js
 
 ---
 
-## ⚡ Why Streams?
+##  Why Streams?
 
 The application leverages **Node.js Transform streams** to process the file data efficiently, handling encryption and decryption on-the-fly without loading the entire file into memory.
